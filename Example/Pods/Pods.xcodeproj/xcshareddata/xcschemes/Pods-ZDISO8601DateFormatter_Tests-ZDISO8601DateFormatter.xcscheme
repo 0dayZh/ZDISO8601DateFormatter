@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EF3CCA910E8D3F8BD757B0A5"
+               BlueprintIdentifier = "DFC9A69E62CF1742AB419818"
                BuildableName = "ZDISO8601DateFormatter.framework"
                BlueprintName = "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter"
                ReferencedContainer = "container:Pods.xcodeproj">

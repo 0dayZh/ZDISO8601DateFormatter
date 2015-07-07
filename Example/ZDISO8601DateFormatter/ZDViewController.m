@@ -7,6 +7,7 @@
 //
 
 #import "ZDViewController.h"
+#import "ZDISO8601DateFormatter.h"
 
 @interface ZDViewController ()
 
@@ -17,13 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    NSString *testData = @"2015-07-07T18:58:58.157+0000";
+    
+    NSDate *date = [testData ISO8601DateValue];
+    NSLog(@"%@", date);
 }
 
 @end
