@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EFDA95C97B776C8D3BF58C9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A7A6528346A4052F394FA1 /* ReplaceMe.m */; };
+		132795063D70F20E920B73E2 /* Pods-ZDISO8601DateFormatter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9160C72B2BED84D8E8E965 /* Pods-ZDISO8601DateFormatter_Example-dummy.m */; };
+		159E6A338846BFAE9FD12226 /* Pods-ZDISO8601DateFormatter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6E4343386FE94EAEB18051 /* Pods-ZDISO8601DateFormatter_Tests-dummy.m */; };
+		1C67951E3C5DE51CFBDD65AD /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F07EBD507ADCE326832AAF04 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E257E9B441551E54B36F70B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C32939EFD30329E866E8BAE /* Foundation.framework */; };
+		3FEE67AA82213326C621AC72 /* Pods-ZDISO8601DateFormatter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4711BBF3DE93859B1012665A /* Pods-ZDISO8601DateFormatter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		450342354E560F9A0215995E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A7A6528346A4052F394FA1 /* ReplaceMe.m */; };
+		5575EC6886F7A38AC84B82C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C32939EFD30329E866E8BAE /* Foundation.framework */; };
+		7CCF58E08D20000E835A337C /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F81EE16BCE5998AFF3D681A7 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-dummy.m */; };
+		BD557DBA6D177001F5F03B05 /* Pods-ZDISO8601DateFormatter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1FFFAB287C065462660BDC4 /* Pods-ZDISO8601DateFormatter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB00D0B4E8F017547A849C0E /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0F56DDB7666C59B13C7C6B2 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-dummy.m */; };
+		DFD422FFAE6904CBA6EBAE76 /* ZDISO8601DateFormatter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E4B20DE3DC9E0386AF2D3542 /* ZDISO8601DateFormatter.bundle */; };
+		E81A903D71ED566AA52F4C55 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F9EB918F19DA28D56CB7304 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB6E501B4C05D25F04F166A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C32939EFD30329E866E8BAE /* Foundation.framework */; };
+		FC77E746DFFA79ADCF4443E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C32939EFD30329E866E8BAE /* Foundation.framework */; };
+		FCAB3BDC5B0246BA40266352 /* ZDISO8601DateFormatter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 02CE217B08947CEED2896B0B /* ZDISO8601DateFormatter.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA9DE232F18AAD68792BED1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D798A2176932BAB7FEB1ED3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF3CCA910E8D3F8BD757B0A5;
+			remoteInfo = "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter";
+		};
+		B1AD6239BA48B43C3876382B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D798A2176932BAB7FEB1ED3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17F7398D73BC070E19ABE0C;
+			remoteInfo = "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-ZDISO8601DateFormatter";
+		};
+		D39A6B7DC6617312AC45AF30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D798A2176932BAB7FEB1ED3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A986984B1869BDC26E5D0F9;
+			remoteInfo = "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-ZDISO8601DateFormatter";
+		};
+		F755DCC459C89042D26D8C29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D798A2176932BAB7FEB1ED3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63CFAD4041B45DB6E6588B24;
+			remoteInfo = "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02CE217B08947CEED2896B0B /* ZDISO8601DateFormatter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDISO8601DateFormatter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BD1C7D9CDB89A81C210D79 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-Private.xcconfig"; sourceTree = "<group>"; };
+		0F9EB918F19DA28D56CB7304 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-umbrella.h"; path = "../Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter/Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-umbrella.h"; sourceTree = "<group>"; };
+		108C08B2B771B7D72953DF00 /* Pods-ZDISO8601DateFormatter_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDISO8601DateFormatter_Example-resources.sh"; sourceTree = "<group>"; };
+		141768579E4E400F46C2DD6C /* Pods-ZDISO8601DateFormatter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZDISO8601DateFormatter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		176FBAD00FAFD7A3A00838E9 /* Pods-ZDISO8601DateFormatter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDISO8601DateFormatter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A9160C72B2BED84D8E8E965 /* Pods-ZDISO8601DateFormatter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZDISO8601DateFormatter_Example-dummy.m"; sourceTree = "<group>"; };
+		2088F632C39D51BA4FDEB05C /* Pods-ZDISO8601DateFormatter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZDISO8601DateFormatter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		209B30312C9AFD4A00718CFB /* Pods-ZDISO8601DateFormatter_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDISO8601DateFormatter_Example-environment.h"; sourceTree = "<group>"; };
+		23AE23499EF76CE2E3720E37 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-prefix.pch"; sourceTree = "<group>"; };
+		264839B866B16D1F38604D30 /* Pods-ZDISO8601DateFormatter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZDISO8601DateFormatter_Tests.modulemap"; sourceTree = "<group>"; };
+		2C32939EFD30329E866E8BAE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2FF83AB04E97C2B1727265EF /* Pods-ZDISO8601DateFormatter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZDISO8601DateFormatter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37F8ADBB1EC7E630FFEECA22 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-Private.xcconfig"; path = "../Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter/Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-Private.xcconfig"; sourceTree = "<group>"; };
+		3C6A3797E3A0980E0494BCFC /* Pods_ZDISO8601DateFormatter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDISO8601DateFormatter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40AA705E846C72F1951743CF /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter.modulemap"; path = "../Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter/Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter.modulemap"; sourceTree = "<group>"; };
+		4193A712CD415C89E4D6E902 /* Pods-ZDISO8601DateFormatter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDISO8601DateFormatter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		43AF6D8BE39CC31B810C5E1A /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter.modulemap"; sourceTree = "<group>"; };
+		44A7A6528346A4052F394FA1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		4711BBF3DE93859B1012665A /* Pods-ZDISO8601DateFormatter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDISO8601DateFormatter_Example-umbrella.h"; sourceTree = "<group>"; };
+		5B0E65406A44D3CC2F8B7E2A /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter.xcconfig"; path = "../Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter/Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter.xcconfig"; sourceTree = "<group>"; };
+		664C6D52CDC65F8A0219C4E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E49F9A1D9E6D00A2509D8F /* ZDISO8601DateFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZDISO8601DateFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6877BAD1D7F02600C03977D5 /* Pods-ZDISO8601DateFormatter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDISO8601DateFormatter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D16447D0028E27187A2775A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D6E4343386FE94EAEB18051 /* Pods-ZDISO8601DateFormatter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZDISO8601DateFormatter_Tests-dummy.m"; sourceTree = "<group>"; };
+		6DB72A4D94E7E0A8A8085D13 /* ZDISO8601DateFormatter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZDISO8601DateFormatter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BA86EBE6AC705D7BFBFFBB9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter/Info.plist"; sourceTree = "<group>"; };
+		8CFED59A875DDCA670C98C1A /* Pods-ZDISO8601DateFormatter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDISO8601DateFormatter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9247E5FCAC753820BE1DAD9B /* Pods-ZDISO8601DateFormatter_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDISO8601DateFormatter_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A0B5EC0153DD38ABB5C9D18E /* Pods-ZDISO8601DateFormatter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZDISO8601DateFormatter_Example.modulemap"; sourceTree = "<group>"; };
+		A6D6AB6205B7800DE988B6BE /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter.xcconfig"; sourceTree = "<group>"; };
+		ADB46E1B06478FA1989464B8 /* Pods_ZDISO8601DateFormatter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZDISO8601DateFormatter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0F56DDB7666C59B13C7C6B2 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-dummy.m"; sourceTree = "<group>"; };
+		C55B363C62460D81BC403C4F /* Pods-ZDISO8601DateFormatter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZDISO8601DateFormatter_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C5BB350019F8D5BAB4FEED90 /* Pods-ZDISO8601DateFormatter_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDISO8601DateFormatter_Tests-environment.h"; sourceTree = "<group>"; };
+		D1C03703AAEDA7842FE1A508 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D293F18D29B4597482FD4D97 /* Pods-ZDISO8601DateFormatter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDISO8601DateFormatter_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DE17EC707EDB40C9AD944532 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E1FFFAB287C065462660BDC4 /* Pods-ZDISO8601DateFormatter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDISO8601DateFormatter_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E4127FE93FCE686B90A9FDCE /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-prefix.pch"; path = "../Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter/Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-prefix.pch"; sourceTree = "<group>"; };
+		E4B20DE3DC9E0386AF2D3542 /* ZDISO8601DateFormatter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZDISO8601DateFormatter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4D5C3E9488E21A5D2D429D /* Pods-ZDISO8601DateFormatter_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZDISO8601DateFormatter_Tests-resources.sh"; sourceTree = "<group>"; };
+		F07EBD507ADCE326832AAF04 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-umbrella.h"; sourceTree = "<group>"; };
+		F81EE16BCE5998AFF3D681A7 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-dummy.m"; path = "../Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter/Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		762EF2A9BCE1AA211029BF89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C1BEBBA0BDA9607C4347D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5575EC6886F7A38AC84B82C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA1CF41690CC0B28A440938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC90A6BD6D8A7AA877BE390A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E257E9B441551E54B36F70B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4D00F9E46FA1F4C04F4F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6E501B4C05D25F04F166A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69DC1166D70B87285BD6EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC77E746DFFA79ADCF4443E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F237FCDB966A8D76664DF70 /* Pods-ZDISO8601DateFormatter_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6D16447D0028E27187A2775A /* Info.plist */,
+				264839B866B16D1F38604D30 /* Pods-ZDISO8601DateFormatter_Tests.modulemap */,
+				2FF83AB04E97C2B1727265EF /* Pods-ZDISO8601DateFormatter_Tests-acknowledgements.markdown */,
+				2088F632C39D51BA4FDEB05C /* Pods-ZDISO8601DateFormatter_Tests-acknowledgements.plist */,
+				6D6E4343386FE94EAEB18051 /* Pods-ZDISO8601DateFormatter_Tests-dummy.m */,
+				C5BB350019F8D5BAB4FEED90 /* Pods-ZDISO8601DateFormatter_Tests-environment.h */,
+				9247E5FCAC753820BE1DAD9B /* Pods-ZDISO8601DateFormatter_Tests-frameworks.sh */,
+				EC4D5C3E9488E21A5D2D429D /* Pods-ZDISO8601DateFormatter_Tests-resources.sh */,
+				E1FFFAB287C065462660BDC4 /* Pods-ZDISO8601DateFormatter_Tests-umbrella.h */,
+				6877BAD1D7F02600C03977D5 /* Pods-ZDISO8601DateFormatter_Tests.debug.xcconfig */,
+				8CFED59A875DDCA670C98C1A /* Pods-ZDISO8601DateFormatter_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZDISO8601DateFormatter_Tests";
+			path = "Target Support Files/Pods-ZDISO8601DateFormatter_Tests";
+			sourceTree = "<group>";
+		};
+		1540357A112007E2B35C5B3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C6A3797E3A0980E0494BCFC /* Pods_ZDISO8601DateFormatter_Example.framework */,
+				ADB46E1B06478FA1989464B8 /* Pods_ZDISO8601DateFormatter_Tests.framework */,
+				E4B20DE3DC9E0386AF2D3542 /* ZDISO8601DateFormatter.bundle */,
+				02CE217B08947CEED2896B0B /* ZDISO8601DateFormatter.bundle */,
+				67E49F9A1D9E6D00A2509D8F /* ZDISO8601DateFormatter.framework */,
+				6DB72A4D94E7E0A8A8085D13 /* ZDISO8601DateFormatter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1901A2F9D89C1BDE11D21363 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				44A7A6528346A4052F394FA1 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		321A56910FBB1B0DF0BA5D6F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D1C03703AAEDA7842FE1A508 /* Info.plist */,
+				8BA86EBE6AC705D7BFBFFBB9 /* Info.plist */,
+				43AF6D8BE39CC31B810C5E1A /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter.modulemap */,
+				A6D6AB6205B7800DE988B6BE /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter.xcconfig */,
+				08BD1C7D9CDB89A81C210D79 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-Private.xcconfig */,
+				B0F56DDB7666C59B13C7C6B2 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-dummy.m */,
+				23AE23499EF76CE2E3720E37 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-prefix.pch */,
+				F07EBD507ADCE326832AAF04 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-umbrella.h */,
+				40AA705E846C72F1951743CF /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter.modulemap */,
+				5B0E65406A44D3CC2F8B7E2A /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter.xcconfig */,
+				37F8ADBB1EC7E630FFEECA22 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-Private.xcconfig */,
+				F81EE16BCE5998AFF3D681A7 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-dummy.m */,
+				E4127FE93FCE686B90A9FDCE /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-prefix.pch */,
+				0F9EB918F19DA28D56CB7304 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter";
+			sourceTree = "<group>";
+		};
+		36249E8A590927B301E3C287 /* Pods-ZDISO8601DateFormatter_Example */ = {
+			isa = PBXGroup;
+			children = (
+				664C6D52CDC65F8A0219C4E7 /* Info.plist */,
+				A0B5EC0153DD38ABB5C9D18E /* Pods-ZDISO8601DateFormatter_Example.modulemap */,
+				141768579E4E400F46C2DD6C /* Pods-ZDISO8601DateFormatter_Example-acknowledgements.markdown */,
+				176FBAD00FAFD7A3A00838E9 /* Pods-ZDISO8601DateFormatter_Example-acknowledgements.plist */,
+				1A9160C72B2BED84D8E8E965 /* Pods-ZDISO8601DateFormatter_Example-dummy.m */,
+				209B30312C9AFD4A00718CFB /* Pods-ZDISO8601DateFormatter_Example-environment.h */,
+				D293F18D29B4597482FD4D97 /* Pods-ZDISO8601DateFormatter_Example-frameworks.sh */,
+				108C08B2B771B7D72953DF00 /* Pods-ZDISO8601DateFormatter_Example-resources.sh */,
+				4711BBF3DE93859B1012665A /* Pods-ZDISO8601DateFormatter_Example-umbrella.h */,
+				4193A712CD415C89E4D6E902 /* Pods-ZDISO8601DateFormatter_Example.debug.xcconfig */,
+				C55B363C62460D81BC403C4F /* Pods-ZDISO8601DateFormatter_Example.release.xcconfig */,
+			);
+			name = "Pods-ZDISO8601DateFormatter_Example";
+			path = "Target Support Files/Pods-ZDISO8601DateFormatter_Example";
+			sourceTree = "<group>";
+		};
+		390E85595CD5D7C5506CAFE0 /* ZDISO8601DateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				3B28100C3112408F7B4635E2 /* Pod */,
+				321A56910FBB1B0DF0BA5D6F /* Support Files */,
+			);
+			name = ZDISO8601DateFormatter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3B28100C3112408F7B4635E2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1901A2F9D89C1BDE11D21363 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		4EDF7AB4D816AF54EEEA7BBE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36249E8A590927B301E3C287 /* Pods-ZDISO8601DateFormatter_Example */,
+				0F237FCDB966A8D76664DF70 /* Pods-ZDISO8601DateFormatter_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8498B9FE484BC7C60E05FFD0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				390E85595CD5D7C5506CAFE0 /* ZDISO8601DateFormatter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C61C17ACF3A532D7C43CAE57 = {
+			isa = PBXGroup;
+			children = (
+				DE17EC707EDB40C9AD944532 /* Podfile */,
+				8498B9FE484BC7C60E05FFD0 /* Development Pods */,
+				FFB2D5A29DF672E53283E9C4 /* Frameworks */,
+				1540357A112007E2B35C5B3E /* Products */,
+				4EDF7AB4D816AF54EEEA7BBE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E26A067A3F886B064809479A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2C32939EFD30329E866E8BAE /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FFB2D5A29DF672E53283E9C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E26A067A3F886B064809479A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3EEDDE0A662307C044FBD977 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD557DBA6D177001F5F03B05 /* Pods-ZDISO8601DateFormatter_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA77836552782E7B7C2D0F63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E81A903D71ED566AA52F4C55 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B30A54DB811E44B2A819AE65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C67951E3C5DE51CFBDD65AD /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD013802361F96246ED6685F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEE67AA82213326C621AC72 /* Pods-ZDISO8601DateFormatter_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0717CB1849973E41CC7AE01C /* Pods-ZDISO8601DateFormatter_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6556248BB695A0F2B7826BF /* Build configuration list for PBXNativeTarget "Pods-ZDISO8601DateFormatter_Tests" */;
+			buildPhases = (
+				822463327332013D9B46A297 /* Sources */,
+				CF4D00F9E46FA1F4C04F4F4B /* Frameworks */,
+				3EEDDE0A662307C044FBD977 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A795DD7F4286C54362284ED3 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZDISO8601DateFormatter_Tests";
+			productName = "Pods-ZDISO8601DateFormatter_Tests";
+			productReference = ADB46E1B06478FA1989464B8 /* Pods_ZDISO8601DateFormatter_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		31D7A40073F6447762F19532 /* Pods-ZDISO8601DateFormatter_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E47A7077D64FE5E57580E1B /* Build configuration list for PBXNativeTarget "Pods-ZDISO8601DateFormatter_Example" */;
+			buildPhases = (
+				75819C4C50F0991E6E0DFAB4 /* Sources */,
+				D69DC1166D70B87285BD6EB0 /* Frameworks */,
+				FD013802361F96246ED6685F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE724982F82A98D5DF9BCD9F /* PBXTargetDependency */,
+			);
+			name = "Pods-ZDISO8601DateFormatter_Example";
+			productName = "Pods-ZDISO8601DateFormatter_Example";
+			productReference = 3C6A3797E3A0980E0494BCFC /* Pods_ZDISO8601DateFormatter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3A986984B1869BDC26E5D0F9 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-ZDISO8601DateFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBD1B8927A116E701D28FFA /* Build configuration list for PBXNativeTarget "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-ZDISO8601DateFormatter" */;
+			buildPhases = (
+				49D17B0A81832AEF3E58E3D8 /* Sources */,
+				762EF2A9BCE1AA211029BF89 /* Frameworks */,
+				F610A67D8A349EF592634D88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-ZDISO8601DateFormatter";
+			productName = "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-ZDISO8601DateFormatter";
+			productReference = 02CE217B08947CEED2896B0B /* ZDISO8601DateFormatter.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		63CFAD4041B45DB6E6588B24 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37758EC03E6752258841E5E2 /* Build configuration list for PBXNativeTarget "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter" */;
+			buildPhases = (
+				6D7EB3758E1BC04E02FBB5D2 /* Sources */,
+				BC90A6BD6D8A7AA877BE390A /* Frameworks */,
+				B34F8865FF02E679294ED252 /* Resources */,
+				B30A54DB811E44B2A819AE65 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				270CB24A95695309A88E2860 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter";
+			productName = "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter";
+			productReference = 6DB72A4D94E7E0A8A8085D13 /* ZDISO8601DateFormatter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C17F7398D73BC070E19ABE0C /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-ZDISO8601DateFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 517752CD6F40ADD747A80F6D /* Build configuration list for PBXNativeTarget "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-ZDISO8601DateFormatter" */;
+			buildPhases = (
+				828523EFFA02366E4A245187 /* Sources */,
+				8CA1CF41690CC0B28A440938 /* Frameworks */,
+				E4A26393A7095E488284AA1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-ZDISO8601DateFormatter";
+			productName = "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-ZDISO8601DateFormatter";
+			productReference = E4B20DE3DC9E0386AF2D3542 /* ZDISO8601DateFormatter.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		EF3CCA910E8D3F8BD757B0A5 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF6A150B0A9812189EE18C72 /* Build configuration list for PBXNativeTarget "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter" */;
+			buildPhases = (
+				C193F97367E51BDCF7ADC127 /* Sources */,
+				7C1BEBBA0BDA9607C4347D30 /* Frameworks */,
+				59482E0AA27671AA1455A93A /* Resources */,
+				AA77836552782E7B7C2D0F63 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				320B8757A10C8858AFC38AA0 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter";
+			productName = "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter";
+			productReference = 67E49F9A1D9E6D00A2509D8F /* ZDISO8601DateFormatter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D798A2176932BAB7FEB1ED3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 1D40D1B507E82840175DA26D /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C61C17ACF3A532D7C43CAE57;
+			productRefGroup = 1540357A112007E2B35C5B3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31D7A40073F6447762F19532 /* Pods-ZDISO8601DateFormatter_Example */,
+				63CFAD4041B45DB6E6588B24 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter */,
+				C17F7398D73BC070E19ABE0C /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-ZDISO8601DateFormatter */,
+				0717CB1849973E41CC7AE01C /* Pods-ZDISO8601DateFormatter_Tests */,
+				EF3CCA910E8D3F8BD757B0A5 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter */,
+				3A986984B1869BDC26E5D0F9 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-ZDISO8601DateFormatter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59482E0AA27671AA1455A93A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAB3BDC5B0246BA40266352 /* ZDISO8601DateFormatter.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34F8865FF02E679294ED252 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD422FFAE6904CBA6EBAE76 /* ZDISO8601DateFormatter.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4A26393A7095E488284AA1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F610A67D8A349EF592634D88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D17B0A81832AEF3E58E3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D7EB3758E1BC04E02FBB5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB00D0B4E8F017547A849C0E /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-dummy.m in Sources */,
+				0EFDA95C97B776C8D3BF58C9 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75819C4C50F0991E6E0DFAB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132795063D70F20E920B73E2 /* Pods-ZDISO8601DateFormatter_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		822463327332013D9B46A297 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159E6A338846BFAE9FD12226 /* Pods-ZDISO8601DateFormatter_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828523EFFA02366E4A245187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C193F97367E51BDCF7ADC127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCF58E08D20000E835A337C /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-dummy.m in Sources */,
+				450342354E560F9A0215995E /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		270CB24A95695309A88E2860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-ZDISO8601DateFormatter";
+			target = C17F7398D73BC070E19ABE0C /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-ZDISO8601DateFormatter */;
+			targetProxy = B1AD6239BA48B43C3876382B /* PBXContainerItemProxy */;
+		};
+		320B8757A10C8858AFC38AA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-ZDISO8601DateFormatter";
+			target = 3A986984B1869BDC26E5D0F9 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-ZDISO8601DateFormatter */;
+			targetProxy = D39A6B7DC6617312AC45AF30 /* PBXContainerItemProxy */;
+		};
+		A795DD7F4286C54362284ED3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter";
+			target = EF3CCA910E8D3F8BD757B0A5 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter */;
+			targetProxy = AA9DE232F18AAD68792BED1B /* PBXContainerItemProxy */;
+		};
+		AE724982F82A98D5DF9BCD9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter";
+			target = 63CFAD4041B45DB6E6588B24 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter */;
+			targetProxy = F755DCC459C89042D26D8C29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F62430205C6E45674CD82D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F8ADBB1EC7E630FFEECA22 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter/Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter/Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZDISO8601DateFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CC404C9777B6820E053861F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08BD1C7D9CDB89A81C210D79 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter/Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter/Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZDISO8601DateFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31D73100BFDA36BA29EFBBBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08BD1C7D9CDB89A81C210D79 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ZDISO8601DateFormatter_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ZDISO8601DateFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		39F376CEFAE870153A94304B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CF2A9468F76BB00AF51126D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		51E341F184C3AF7C87DF9C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F8ADBB1EC7E630FFEECA22 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter/Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter/Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZDISO8601DateFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AC71FD5185CC9D7484C92AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F8ADBB1EC7E630FFEECA22 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ZDISO8601DateFormatter_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ZDISO8601DateFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6C8F13D5F52F672BF124C94E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6877BAD1D7F02600C03977D5 /* Pods-ZDISO8601DateFormatter_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZDISO8601DateFormatter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZDISO8601DateFormatter_Tests/Pods-ZDISO8601DateFormatter_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ZDISO8601DateFormatter_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8E22B583D230C66684A5F35E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFED59A875DDCA670C98C1A /* Pods-ZDISO8601DateFormatter_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZDISO8601DateFormatter_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZDISO8601DateFormatter_Tests/Pods-ZDISO8601DateFormatter_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ZDISO8601DateFormatter_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A058592647B5D044201678BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08BD1C7D9CDB89A81C210D79 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ZDISO8601DateFormatter_Example";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ZDISO8601DateFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		ADB68C31D68F4464CBD5DB77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4193A712CD415C89E4D6E902 /* Pods-ZDISO8601DateFormatter_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZDISO8601DateFormatter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZDISO8601DateFormatter_Example/Pods-ZDISO8601DateFormatter_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ZDISO8601DateFormatter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2210EBD403073BDE62BE0CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55B363C62460D81BC403C4F /* Pods-ZDISO8601DateFormatter_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZDISO8601DateFormatter_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZDISO8601DateFormatter_Example/Pods-ZDISO8601DateFormatter_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ZDISO8601DateFormatter_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DAA6F054B4AC27CC392C3D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08BD1C7D9CDB89A81C210D79 /* Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter/Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter/Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZDISO8601DateFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E7960E21C065C262511CEED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37F8ADBB1EC7E630FFEECA22 /* Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-Private.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-ZDISO8601DateFormatter_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ZDISO8601DateFormatter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D40D1B507E82840175DA26D /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF2A9468F76BB00AF51126D /* Debug */,
+				39F376CEFAE870153A94304B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E47A7077D64FE5E57580E1B /* Build configuration list for PBXNativeTarget "Pods-ZDISO8601DateFormatter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB68C31D68F4464CBD5DB77 /* Debug */,
+				C2210EBD403073BDE62BE0CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37758EC03E6752258841E5E2 /* Build configuration list for PBXNativeTarget "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC404C9777B6820E053861F /* Debug */,
+				DAA6F054B4AC27CC392C3D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		517752CD6F40ADD747A80F6D /* Build configuration list for PBXNativeTarget "Pods-ZDISO8601DateFormatter_Example-ZDISO8601DateFormatter-ZDISO8601DateFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31D73100BFDA36BA29EFBBBA /* Debug */,
+				A058592647B5D044201678BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6556248BB695A0F2B7826BF /* Build configuration list for PBXNativeTarget "Pods-ZDISO8601DateFormatter_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C8F13D5F52F672BF124C94E /* Debug */,
+				8E22B583D230C66684A5F35E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDBD1B8927A116E701D28FFA /* Build configuration list for PBXNativeTarget "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-ZDISO8601DateFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AC71FD5185CC9D7484C92AA /* Debug */,
+				E7960E21C065C262511CEED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF6A150B0A9812189EE18C72 /* Build configuration list for PBXNativeTarget "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51E341F184C3AF7C87DF9C69 /* Debug */,
+				0F62430205C6E45674CD82D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D798A2176932BAB7FEB1ED3 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module ZDISO8601DateFormatter {
+  umbrella header "Pods-ZDISO8601DateFormatter_Tests-ZDISO8601DateFormatter-umbrella.h"
+
+  export *
+  module * { export * }
+}

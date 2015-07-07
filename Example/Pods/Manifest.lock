@@ -1,0 +1,14 @@
+PODS:
+  - ZDISO8601DateFormatter (0.1.0)
+
+DEPENDENCIES:
+  - ZDISO8601DateFormatter (from `../`)
+
+EXTERNAL SOURCES:
+  ZDISO8601DateFormatter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZDISO8601DateFormatter: 6339508bfc0df950b2d2e999b81e86d9a5646654
+
+COCOAPODS: 0.37.2
